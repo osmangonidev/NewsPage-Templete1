@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0 px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(19, 4, 4);
+}
+.wrapper{
+    width: 850px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 1px;
+    border: 2px solid rgb(204, 189, 189);
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+.logo{
+    height: 130px;
+    background-color:#eaaf46;
+    overflow: hidden;
+   
+    
+}
+.logo img{
+    height: 110px;
+    width: 400px;
+}
+
+.header{
+    text-align: center;
+    overflow: hidden;
+}
+.header h1{
+    font-size: 58pt;
+    font-family: sans-serif;
+    margin-top: 20px;
+    padding: 10px;
+    color:#eaaf46;
+}
+.header p{
+    font-size: 18pt;
+    font-family: cursive;
+}
+.header img{
+    width: 810px ;
+    height: 700px ;
+    margin: 25px 20px;
+}
+.body{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.body .heading{
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 22pt;
+}
+.body .first{
+    
+}
+.body .second{
+    
+}
+.body .third{
+    
+}
+.body .first .first-left,.body .first .first-right,.body .second .second-left,.body .second .second-right,
+.body .third .third-left,.body .third .third-right{
+    width: 340px;
+    height: 300px;
+    float: left;
+    margin: 20px 20px;
+    
+
+}
+
+.body .first .first-left img,.body .second .second-left img,.body .third .third-left img{
+    width: 340px;
+    height: 300px;
+    padding: 10px;
+}
+.first .first-right h2,.body .second .second-right h2,.body .third .third-right h2,.first .first-right p,
+.body .second .second-right p,.body .third .third-right p{
+    padding: 10px;
+    line-height: 1.3;
+}
+.first .first-right p,.body .second .second-right p,.body .third .third-right p{
+    margin: 20px;
+}
+.first .first-right a,.body .second .second-right a,.body .third .third-right a{
+    padding: 10px;
+    background-color: #eaaf46;
+     text-decoration: none;
+     border-radius: 10px;
+     font-weight: bold;
+}
+.link{
+    background-color: #eaaf46;
+    height: 200px;
+    margin-top: 70px;
+    overflow: hidden;
+}
+.link .img-wrapper{
+    margin-left: 200px;
+    height: 50px;
+}
+.link img{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.link p {
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 20px;
+ 
+}
+.footer{
+    height: 95px;
+}
+.footer p{
+    height: 95px;
+    margin-top: 35px;
+    height: 95px;
+    padding: 5px;
+    display: inline-block;
+    color: rgb(19, 4, 4) ;
+}
+.footer p:first-child{
+    margin-left: 10px;
+}
